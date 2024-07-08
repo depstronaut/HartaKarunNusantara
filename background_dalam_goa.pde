@@ -1,0 +1,124 @@
+void drawCave() {
+  fill(20, 20, 20);
+  noStroke();
+
+  beginShape();
+  vertex(0, 0);
+  vertex(0, height * 0.3);
+  for (float x = 0; x <= width; x += 10) {
+    float y = height * 0.2 + noise(x * 0.02) * 100;
+    vertex(x, y);
+  }
+  vertex(width, 0);
+  endShape(CLOSE);
+  
+  beginShape();
+  vertex(0, height);
+  vertex(0, height * 0.7);
+  for (float x = 0; x <= width; x += 10) {
+    float y = height * 0.7 + noise(x * 0.02 + 1000) * 100;
+    vertex(x, y);
+  }
+  vertex(width, height);
+  endShape(CLOSE);
+}
+
+void terumbuKarang() {
+  fill(20, 20, 20);
+  beginShape();
+  vertex(1600, 1080);
+  vertex(1920, 1080);
+  vertex(1920, 635);
+  vertex(1904.87, 635.843);
+  vertex(1885.32, 633.75);
+  vertex(1892.1, 593.833);
+  vertex(1897.54, 566.573);
+  vertex(1895.04, 501.786);
+  vertex(1878.38, 490.718);
+  vertex(1877.47, 566.776);
+  vertex(1865.16, 629.422);
+  vertex(1864.19, 634.093);
+  vertex(1860.14, 635.234);
+  vertex(1868.52, 572.015);
+  vertex(1863.18, 469.62);
+  vertex(1861.8, 420.495);
+  vertex(1858.91, 419.838);
+  vertex(1846.98, 461.088);
+  vertex(1848.55, 530.234);
+  vertex(1851.53, 562.87);
+  vertex(1838.81, 530.843);
+  vertex(1838.44, 487.875);
+  vertex(1824.77, 451.411);
+  vertex(1808.69, 444.802);
+  vertex(1820.77, 495.505);
+  vertex(1820.9, 515.01);
+  vertex(1829.87, 562.057);
+  vertex(1839.26, 587.625);
+  vertex(1843.09, 617.276);
+  vertex(1840.45, 617.62);
+  vertex(1827.46, 590.396);
+  vertex(1813.27, 538.672);
+  vertex(1782.51, 468.01);
+  vertex(1775.4, 458.364);
+  vertex(1773.34, 459.698);
+  vertex(1773.8, 463.276);
+  vertex(1776.11, 494.083);
+  vertex(1784.34, 532.047);
+  vertex(1799.88, 557.291);
+  vertex(1810.7, 583.999);
+  vertex(1809.03, 591.754);
+  vertex(1801.6, 588.801);
+  vertex(1794.2, 576.983);
+  vertex(1783.4, 550.223);
+  vertex(1773.22, 534.796);
+  vertex(1770.54, 536.202);
+  vertex(1773.79, 551.145);
+  vertex(1779.99, 580.858);
+  vertex(1804.67, 613.244);
+  vertex(1828.55, 636.233);
+  vertex(1835.04, 654.509);
+  vertex(1832.16, 659.681);
+  vertex(1786.21, 686.332);
+  vertex(1707.63, 679.78);
+  vertex(1711.68, 677.155);
+  vertex(1713.32, 664.837);
+  vertex(1703.65, 659.087);
+  vertex(1691.69, 665.775);
+  vertex(1689.3, 670.936);
+  vertex(1686.8, 656.712);
+  vertex(1713.66, 628.046);
+  vertex(1716.2, 616.712);
+  vertex(1700.19, 606.619);
+  vertex(1691.43, 607.837);
+  vertex(1688.2, 621.53);
+  vertex(1685.48, 624.452);
+  vertex(1683.7, 611.603);
+  vertex(1686.95, 604.27);
+  vertex(1680.98, 591.41);
+  vertex(1653.31, 600.098);
+  vertex(1651.85, 607.462);
+  vertex(1658.45, 619.478);
+  vertex(1666.56, 634.155);
+  vertex(1663.79, 647.238);
+  vertex(1658.26, 645.848);
+  vertex(1656.6, 638.379);
+  vertex(1648.11, 632.233);
+  vertex(1633.52, 642.66);
+  vertex(1638.52, 655.431);
+  vertex(1647.36, 661.79);
+  vertex(1648.05, 667.603);
+  vertex(1643.59, 664.962);
+  vertex(1638.3, 658.947);
+  vertex(1631.94, 654.931);
+  vertex(1625.03, 656.197);
+  vertex(1616.3, 669.905);
+  vertex(1634.13, 685.582);
+  vertex(1662.31, 698.973);
+  vertex(1660.88, 701.113);
+  vertex(1609.16, 783.863);
+  vertex(1573.21, 805.556);
+  vertex(1489.77, 854.869);
+  vertex(1489.77, 1080);
+  vertex(1920, 1080);
+  endShape(CLOSE);
+}
